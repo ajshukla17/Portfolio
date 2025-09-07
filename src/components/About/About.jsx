@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-// import profileImage from './src/ajlogo.png';
-
+import profileImage from './assets./profile.png';
 const About = () => {
   return (
     <section
@@ -74,11 +73,11 @@ const About = () => {
             transitionSpeed={1000}
             gyroscope={true}
           >
-            {/* <img
+            <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Ajitesh Shukla"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
-            /> */}
+            />
           </Tilt>
         </div>
       </div>
