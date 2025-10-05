@@ -31,8 +31,8 @@ import kendriya from './assets/education_logo/kv.jpeg';
 
 
 // Project Section Logo's
-
-
+import FirkFreeAi from './assets/work_logo/FikrfreeAi.png';
+import Astrovue from './assets/work_logo/Asrovue1.jpg'
 
 
 export const SkillsInfo = [
@@ -139,25 +139,27 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Hotel booking Website",
-      description:"Built a full-stack hotel booking application using Node.js, Express.js, MongoDB, featuring user authentication and property listings.Inspired by Airbnb, implemented real-world booking functionalities for hands-on experience.",
-     
-      tags: ["HTML", "CSS", "JavaScript","EJS", "Tailwind CSS","Mongodb", "API"],
+      title: "FirkfreeAi-SaaS",
+      description:"Built a full-stack Ai SaaS application It offers powerful AI-driven tools including article generation, image creation, background object removal, and resume review, providing users with a seamless and intelligent content creation experience",
+      tags: ["Express", "React", "JavaScript","Postgres", "Tailwind CSS", "Google-Gemini-API"],
+      image:FirkFreeAi
   
     },
     {
       id: 1,
-      title: "Clothing website-Cara",
-      description:"Built a front-end webiste of online cloth selling website ",
+      title: "Astrovue App", 
+      description:"Astrovue App Built backend features using FastAPI (Python) for birth chart generation and integrated AI chatbot powered by OpenAI.Enhanced overall app performance through optimized backend–frontend communication. ",
+      tags: ["HTML", "CSS", "JavaScript","React-native","openAi","Firebase","Tailwind CSS"],
+      image:Astrovue
       
-      tags: ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
   
     },
     {
-      id: 2,
-      title: "Astrovue App", 
-      description:"Astrovue App Built backend features using FastAPI (Python) for birth chart generation and integrated AI chatbot powered by OpenAI.Enhanced overall app performance through optimized backend–frontend communication. ",
-      tags: ["HTML", "CSS", "JavaScript","React-native","Api","Bootstrap","openAi","Firebase", "0Auth","Tailwind CSS"],
+      id: 1,
+      title: "Hotel booking Website",
+      description:"Built a full-stack hotel booking application using Node.js, Express.js, MongoDB, featuring user authentication and property listings.Inspired by Airbnb, implemented real-world booking functionalities for hands-on experience.",
+      tags: ["HTML", "CSS", "JavaScript","EJS", "Tailwind CSS","Mongodb"],
   
     },
+    
   ];  
